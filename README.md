@@ -20,40 +20,39 @@ The Meal Planning App provides users with an organized platform to discover, pla
 ## 4. File and Folder Structure
 
 meals/
-│
-├── lib/
-│   ├── data/
-│   │   └── dummy_data.dart
-│   │
-│   ├── models/
-│   │   ├── category.dart
-│   │   └── meal.dart
-│   │
-│   ├── providers/
-│   │   ├── favorites_provider.dart
-│   │   ├── filters_provider.dart
-│   │   └── meals_provider.dart
-│   │
-│   ├── screens/
-│   │   ├── categories.dart
-│   │   ├── filters.dart
-│   │   ├── meal_details.dart
-│   │   ├── meals.dart
-│   │   └── tabs.dart
-│   │
-│   ├── widgets/
-│   │   ├── category_grid_item.dart
-│   │   ├── main_drawer.dart
-│   │   ├── meal_item.dart
-│   │   ├── meal_item_trait.dart
-│   │   └── main.dart
-│   │
-│   └── main.dart
-│
-├── assets/ (if any)
-│
+└── lib/
+    ├── data/
+    │   └── dummy_data.dart
+    │
+    ├── models/
+    │   ├── category.dart
+    │   └── meal.dart
+    │
+    ├── providers/
+    │   ├── favorites_provider.dart
+    │   ├── filters_provider.dart
+    │   └── meals_provider.dart
+    │
+    ├── screens/
+    │   ├── categories.dart
+    │   ├── filters.dart
+    │   ├── meal_details.dart
+    │   ├── meals.dart
+    │   └── tabs.dart
+    │
+    ├── widgets/
+    │   ├── category_grid_item.dart
+    │   ├── main_drawer.dart
+    │   ├── meal_item.dart
+    │   ├── meal_item_trait.dart
+    │   └── main.dart
+    │
+    └── main.dart
+
+├── assets/
 ├── pubspec.yaml
 └── README.md
+
 
 
 - **data:** Contains the dummy data source for the application.
